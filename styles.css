@@ -1,13 +1,15 @@
 .container
 {
-text-align: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.60);
 }
 
 #logo
 {
     width: 220px;
     height: 100 px;
-    margin-top: auto;
+    margin-top: 0px;
+    position: relative;
 }
 
 #logo img
@@ -20,7 +22,7 @@ text-align: center;
 {
     width: 450px;
     height: 660px;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.85);
     display: inline-block;
     border-radius: 6px;
     margin-top: 0px;
@@ -29,7 +31,7 @@ text-align: center;
 .topText
 {
     font-family: sans-serif;
-    font-size:35px ;
+    font-size:32px ;
     color: white;
     margin-top: 15%;
     margin-left: 15%;
@@ -41,7 +43,7 @@ text-align: center;
 {
     color: white;
     width: 300px;
-    height: 50px;
+    height: 45px;
     border-radius: 6px;
     display: flex;
     margin-left: 15%;
@@ -52,8 +54,9 @@ text-align: center;
 .emailInput::placeholder
 {
     margin-left: 15px;
-    font-size: 15px;
+    font-size: 16px;
     color: #b1a3a3;
+    padding-left: 15px; 
 
 }
 
@@ -61,7 +64,7 @@ text-align: center;
 {
     color: white;
     width: 300px;
-    height: 50px;
+    height: 45px;
     border-radius: 6px;
     display: flex;
     margin-left: 15%;
@@ -73,6 +76,110 @@ text-align: center;
 .passwordInput::placeholder
 {
     margin: 2px;
-    font-size: 15px;
+    font-size: 16px;
     color: #b1a3a3;
+    padding-left: 15px;
+}
+
+.loginButton
+{
+    color: white;   
+    width: 310px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: red;
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.loginOptions
+{
+    width: 310px;
+    height: 45px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.loginCheck
+{
+    color: #b1a3a3;
+}
+
+.loginCheckContainer
+{
+    color: #b1a3a3;
+}
+
+.loginCheckContainer input
+{
+    width: 15px;
+    height: 15px;
+    position: flex;
+    
+}
+
+
+.help
+{
+    color: #b1a3a3;
+    margin-left: 85px;
+    text-decoration: none;
+}
+
+.bottomText
+{
+    width: 310px;
+    height: 40px; /*temp*/
+    display: flex;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+
+.bottomT1
+{
+    font-family: sans-serif;
+    color:#b1a3a3;
+    font-size: 15px;
+    
+
+}
+
+.bottomT2
+{
+    font-family: sans-serif;
+    color:white;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+
+}
+
+
+.bottomT3{
+    margin-top: 0px;
+    color:#b1a3a3;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.captcha
+{
+    width: 310px;
+    height: 100px; /*temp*/
+    margin: 0px auto;
+    text-decoration: none;
+}
+
+.info
+{
+    text-decoration: none;
 }
