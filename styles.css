@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
     margin:0px;
@@ -275,3 +276,83 @@ body
 {
     display: none;
 }
+=======
+.container
+{
+text-align: center;
+}
+
+#logo
+{
+    width: 220px;
+    height: 100 px;
+    margin-top: auto;
+}
+
+#logo img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.loginBox
+{
+    width: 450px;
+    height: 660px;
+    background-color: rgba(0,0,0,0.9);
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 0px;
+}
+
+.topText
+{
+    font-family: sans-serif;
+    font-size:35px ;
+    color: white;
+    margin-top: 15%;
+    margin-left: 15%;
+    text-align: left;
+    opacity: 1;
+}
+
+.emailInput
+{
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    margin-left: 15%;
+    background-color: #484444;
+    
+}
+
+.emailInput::placeholder
+{
+    margin-left: 15px;
+    font-size: 15px;
+    color: #b1a3a3;
+
+}
+
+.passwordInput
+{
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 15px;
+    background-color: #484444;
+    
+}
+
+.passwordInput::placeholder
+{
+    margin: 2px;
+    font-size: 15px;
+    color: #b1a3a3;
+}
+>>>>>>> 2a9caffc6d5af5804aa54d5e81af599f9703073b
